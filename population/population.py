@@ -96,6 +96,16 @@ class WorldPopulationStats():
                        'borderTop': 'thin lightgrey solid',
                        'borderBottom': 'thin lightgrey solid',
                        'justifyContent':'center', }),
+            html.Br(),
+            dcc.Markdown("""
+            #### À propos
+
+            * Inspiration initiale : [conférence de Hans Rosling](https://www.ted.com/talks/hans_rosling_new_insights_on_poverty)
+            * [Version Plotly](https://plotly.com/python/v3/gapminder-example/)
+            * Données : [Banque mondiale](https://databank.worldbank.org/source/world-development-indicators)
+            * (c) 2022 Olivier Ricou
+            """),
+           
 
         ], style={
                 #'backgroundColor': 'rgb(240, 240, 240)',

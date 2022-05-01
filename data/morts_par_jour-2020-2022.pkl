@@ -1,0 +1,1 @@
+../deces/data/morts_par_jour-2020-2022.pkl
